@@ -142,7 +142,9 @@ function Maintask() {
                     <td>{task.createdBy}</td>
                     <td>
                       {isEditing ? (
-                        <button disabled>Edit</button>
+                        <button className="buttonEdit" disabled>
+                          Edit
+                        </button>
                       ) : (
                         <button
                           className="buttonEdit"
