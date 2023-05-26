@@ -20,7 +20,7 @@ function Maintask() {
   const loadTasks = async () => {
     try {
       const res = await axios.get("http://localhost:3000/api/v1/tasks");
-      setTasks(res.data.blogs);
+      setTasks(res.data.tasks);
     } catch (error) {
       console.log(error);
     }
