@@ -1,0 +1,79 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.form-input {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.form-input input[type="text"],
+.form-input select {
+  padding: 6px 12px;
+  margin-right: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-input input[type="date"] {
+  padding: 6px 12px;
+  margin-right: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-input button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.table-infor {
+  margin-top: 24px;
+  overflow-x: auto;
+}
+
+.table-infor table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-infor th,
+.table-infor td {
+  text-align: left;
+  padding: 8px;
+}
+
+.table-infor th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.table-infor tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.buttonEdit {
+  width: 60px;
+  height: 30px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.buttonDelete {
+  width: 60px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
