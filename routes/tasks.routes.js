@@ -5,10 +5,10 @@ const database = require("../utils/database");
 router.get("/", async (req, res) => {
   try {
     let data = await database.execute("SELECT * FROM task.tasks");
-    let [blogs] = data;
+    let [tasks] = data;
     res.json({
       status: "success",
-      blogs,
+      tasks,
     });
   } catch (error) {
     res.json({ error });
